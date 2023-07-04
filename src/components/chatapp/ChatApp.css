@@ -1,7 +1,7 @@
 /* ChatApp.css */
 .chat-app {
-    width: 1000px;
-    height: 700px;
+    width: 900px;
+    height: 600px;
     border: 1px solid #ccc;
     border-radius: 10px;
     overflow: hidden;
