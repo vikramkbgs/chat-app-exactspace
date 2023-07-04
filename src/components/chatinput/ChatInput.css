@@ -1,0 +1,78 @@
+/* ChatInput.css */
+.chat-input {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  position: relative; /* Set the position to relative for proper positioning of the user list */
+  height: 50px;
+}
+
+input {
+  flex: 1;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  height: 24px;
+}
+
+
+
+button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: medium;
+}
+
+.emoji-options {
+  margin-left: 10px;
+}
+
+.emoji-options span {
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+/* Style the mention button */
+.mention-button {
+  margin-left: 10px;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the user list */
+.user-list {
+position: absolute;
+    top: -160px;
+    /* Adjust the position as needed to make it visible above the input */
+    left: 500px;
+    width: 220px;
+    max-height: 120px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    /* Set the font size to make it smaller */
+}
+
+.user-list span {
+display: block;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.user-list span:hover {
+background-color: #e6e6e6;
+}
