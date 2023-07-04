@@ -27,7 +27,7 @@ To run the Chat App locally, follow these steps:
 ## Folder Structure
 
 The folder structure of the project is as follows:
-
+```
 chat-app/
 ├── public/
 │   ├── index.html
@@ -50,6 +50,7 @@ chat-app/
 ├── .gitignore
 ├── package.json
 └── README.md
+```
 
 
 ## Technologies Used
