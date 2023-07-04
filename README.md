@@ -2,6 +2,9 @@
 
 The Chat App is a simple React-based application that allows users to send and receive messages in a chat-like interface.
 
+## Live 
+[click me](https://iridescent-pie-bab996.netlify.app/)
+
 ## Features
 
 - Real-time Messaging: Enables users to exchange messages in real-time, providing a seamless chat experience.
