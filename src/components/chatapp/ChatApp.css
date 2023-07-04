@@ -1,0 +1,28 @@
+/* ChatApp.css */
+.chat-app {
+    width: 1000px;
+    height: 700px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    /* Hide any content that exceeds the fixed size */
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto; /* Set margin to auto to center the chat app */
+    font-family: var(--font-family);
+        /* Use the CSS variable here */
+        color: var(--text-color);
+        /* Use the CSS variable here */
+        font-size: var(--font-size);
+        /* Use the CSS variable here */
+}
+
+.scroll{
+    background-color: #f6f6f6;
+    overflow-y:auto;
+    overflow-x: hidden;
+    width: 1000px;
+    height: 650px;
+}
+
+
